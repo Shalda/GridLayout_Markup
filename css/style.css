@@ -191,7 +191,7 @@ h2 {
     content: '';
     display: inline-block;
     margin-top: 1em;
-    width: 1em;
+    width: 1.1em;
     height: 1em;
     border-top: 0.25em solid #ffffff;
     border-right: 0.25em solid #ffffff;
@@ -203,7 +203,7 @@ h2 {
 .main_form form {
     position: relative;
     width: 75%;
-    padding: 3.5rem;
+    padding: 1rem;
     background-color: #ffffff;
     margin: 0 auto;
     color: #4c4c4c;
@@ -422,7 +422,10 @@ footer {
     }
 
 }
-@media only screen and (min-width: 992px) {
+@media screen and  (min-width: 992px) {
+    .main_form form{
+        padding: 3.5rem;
+    }
     .portfolio_items_box {
         grid-template-columns: 25% 25% 25% 25%;
     }
